@@ -1,0 +1,47 @@
+.postIDValue {
+  position: relative;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px;
+}
+.body_id {
+  font-weight: 600;
+  font-size: 16px;
+}
+.comments_css {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
+.comments_id {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 12px 10px;
+}
+@media screen and (max-width: 1028px) and (min-width: 768px) {
+  .comments_css{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+  }
+  .comments_id{
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .comments_css{
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+  }
+  .comments_id{
+    padding: 10px;
+  }
+}
